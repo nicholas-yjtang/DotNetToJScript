@@ -23,7 +23,7 @@ public class TestClass
 {
     public TestClass()
     {
-        MessageBox.Show("Test", "Test", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+        {code}
     }
 
     public void RunProcess(string path)
