@@ -21,6 +21,7 @@ using System.Windows.Forms;
 [ComVisible(true)]
 public class TestClass
 {
+    {dllimports}
     public TestClass()
     {
         {code}
