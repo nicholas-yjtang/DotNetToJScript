@@ -230,9 +230,9 @@ namespace DotNetToJScript
                         Environment.Exit(1);
                     }
                 }
-                catch (Exception)
+                catch (Exception exception)
                 {
-                    WriteError("Error: loading assembly information.");
+                    WriteError("Error: loading assembly information: " + exception.Message);
                     WriteError("The generated script might not work correctly");
                 }
 
